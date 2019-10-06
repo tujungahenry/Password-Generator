@@ -30,6 +30,7 @@ body {
 #lastNums {
     font-weight: bold;
     margin-top: 10px;
+    color: black;
 }
 
 .previous_passwords {
@@ -44,6 +45,7 @@ h4 {
 b {
     font-size: 1.4rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
 }
 
 button {
