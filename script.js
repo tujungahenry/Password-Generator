@@ -28,15 +28,15 @@ promptForTypes()
 
 function generate() {
 password = "";
-    // set password lenght/complexity
-    let complexity = document.getElementById("slider").value;
+    //password lenght/complexity
+    let complexity = document.getElementById("slide").value;
 
-    //create for loop to choose password characters
+    //for loop to choose password characters
     for(var i = 0; i <= complexity; i++) {
         password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
     }
 
-    //add password to textbox/display area
+    //add password to textbox
     document.getElementById("display").value = password;
 
     //add password to previously generated password section
@@ -44,14 +44,14 @@ password = "";
 
 }
 
-//set default lenght display of 25
+//set default length display of 64
 document.getElementById("length").innerHTML = "Length: 64";
 
 //function to set length based on slider position
-document.getElementById("slider").oninput = function() {
+document.getElementById("slide").oninput = function() {
 
-    if(document.getElementById("slider").value > 0) {
-        document.getElementById("length").innerHTML = "Length" + document.getElementById("slider").value;
+    if(document.getElementById("slide").value > 0) {
+        document.getElementById("length").innerHTML = "Length" + document.getElementById("slide").value;
     }
     else {
         document.getElementById("length").innerHTML = "Length: 8";
