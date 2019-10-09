@@ -2,6 +2,8 @@
 
 ## Homework 3
 
+https://tujungahenry.github.io/Password-Generator/
+
 ![2019-10-08 (1)](https://user-images.githubusercontent.com/53213039/66453833-9583c180-ea1a-11e9-81c9-dc5b66c59949.png)
 
 #### Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.
